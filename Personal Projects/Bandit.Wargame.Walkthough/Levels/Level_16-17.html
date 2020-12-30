@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bandit Walkthrough: Level 16→17</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Kevin Kennedy">
+    <meta name="description" content="OverTheWire: Bandit-Wargame Level 16 to 17 Walkthrough">
+</head>
+
+<body>
+    <div class="alwaysontop">
+        <header class="topbanner">
+            OverTheWire.org Walkthrough: Bandit
+        </header>
+    </div>
+    <div class="maincontent">
+        <div class="sidemenu">
+            <ul>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\index.html">Home</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_0-0.html">Level: 0</li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_0-1.html">Level: 0&#8594;1</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_1-2.html">Level: 1&#8594;2</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_2-3.html">Level: 2&#8594;3</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_3-4.html">Level: 3&#8594;4</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_4-5.html">Level: 4&#8594;5</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_5-6.html">Level: 5&#8594;6</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_6-7.html">Level: 6&#8594;7</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_7-8.html">Level: 7&#8594;8</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_8-9.html">Level: 8&#8594;9</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_9-10.html">Level: 9&#8594;10</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_10-11.html">Level: 10&#8594;11</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_11-12.html">Level: 11&#8594;12</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_12-13.html">Level: 12&#8594;13</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_13-14.html">Level: 13&#8594;14</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_14-15.html">Level: 14&#8594;15</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_15-16.html">Level: 15&#8594;16</a></li>
+                <li>Level: 16&#8594;17</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_17-18.html">Level: 17&#8594;18</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_18-19.html">Level: 18&#8594;19</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_19-20.html">Level: 19&#8594;20</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_20-21.html">Level: 20&#8594;21</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_21-22.html">Level: 21&#8594;22</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_22-23.html">Level: 22&#8594;23</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_23-24.html">Level: 23&#8594;24</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_24-25.html">Level: 24&#8594;25</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_25-26.html">Level: 25&#8594;26</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_26-27.html">Level: 26&#8594;27</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_27-28.html">Level: 27&#8594;28</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_28-29.html">Level: 28&#8594;29</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_29-30.html">Level: 29&#8594;30</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_30-31.html">Level: 30&#8594;31</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_31-32.html">Level: 31&#8594;32</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_32-33.html">Level: 32&#8594;33</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_33-34.html">Level: 33&#8594;34</a></li>
+            </ul>
+        </div>
+        <div class="allbodycontent">
+            <h1 class="levelnumber">~ Level 16&#8594;17 ~</h1>
+            <h2 class="bodysectiontitle">Level Description</h2>
+            <div class="leveldescription">
+                <p>
+                    The credentials for the next level can be retrieved by submitting the password of the current level to <b>a port on localhost
+                    in the range 31000 to 32000</b>. First find out which of these ports have a server listening on them. Then find out which of those speak SSL
+                    and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
+                </p>
+                <p>
+                    Commands given to solve this level are as follows: <b>ssh, telnet, nc, openssl, s_client,</b> and <b>nmap</b>.
+                </p>
+                <p>
+                    The final piece of information given is a link to Wikipedia on applications known as port scanners.
+                </p>
+                <hr class="linebreak">
+            </div>
+            <h2 class="bodysectiontitle">Research Before Solving</h2>
+            <div class="research">
+                <p>
+                    Reading the article on port scanning is important for this level. We learn through the reading that a port scanner is able to probe 
+                    a host or server to see what ports are open. Requests are sent from the device running the scanner in hopes of recieving a reply. A reply 
+                    signifies an open port that is currently accepting requests for communication. The article goes on to give information regarding the plethora 
+                    of scans available.  
+                </p>
+                <p>
+                    We need to find a tool that is used to scan ports within Linux. For this we turn to <b class="command">nmap</b>. According to this command's 
+                    <b>man pages</b> it is used to rapidly scan an entire network or an individual host to determine if any ports are available for commmunicating.  
+                </p>
+                <hr class="linebreak">
+            </div>
+            <h2 class="bodysectiontitle">Solution Walkthrough</h2>
+            <div class="solution">
+                <p>
+                    Initiate the level by logging in as <b>bandit16</b>. We first need to probe the server to see 
+                    what ports are open and what services they are running. To do so we need to use <b class="command">nmap</b>. The 
+                    switch required to scan for services is <b class="command">-sV</b> and we also need <b class="command">-p</b> in order to 
+                    specify the port range to search. Putting all of this together we get: <b class="command">nmap -sV -p31000-32000 localhost</b>.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_16_17_pics\nmap_run.png"
+                alt="nmap in progress" class="largepicture">
+                <p>
+                    This process does take some time so be patient. Using the port range does make it faster as it is not scanning 
+                    through all potential 65,535 ports. Once the <b class="command">nmap</b> is finished running, we want to look 
+                    at the port numbers, port state, and service.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_16_17_pics\nmap_results.png"
+                alt="results of nmap scan" class="smallpicture">
+                <p>
+                    The level description tells us that only one server will provide the password, the rest will send back anything we send to them.
+                    Using that knowledge, we find the second to last server as the only host that is not running an echo service. This is the server we want to
+                    send the current level's password to. 
+                </p>
+                <p>
+                    Because the server is using the SSL protocol, we should establish communication using <b class="command">openssl</b>. Using the same syntax from 
+                    the last level, this is how our command should appear: <b class="command">openssl s_client -connect localhost:31790</b>
+                </p>
+                <p>
+                    The resulting output will appear just as it did the first time we used <b class="command">openssl</b>. There is a blinking cursor at the bottom for 
+                    us to send the password from <b>bandit16</b>. After sending the password we are presented with the following output:
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_16_17_pics\rsa_key.png"
+                alt="response back in the form of a private key" class="largepicture">
+                <p>
+                    Since we are given a private key, we must use <b class="command">ssh -i</b> along with a file that contains the key. To do this we will 
+                    start by making a directory under <b class="directory">/tmp/user</b>. Next we will create a new, blank file so that we may save the retrieved 
+                    private key. We can create a blank file with the <b class="command">touch</b> command. To create a file named <b>sshkey.private</b> type: 
+                    <b class="command">touch /tmp/user/sshkey.private</b>.
+                </p>
+                <p>
+                    If you haven't yet, copy the output of the private key, make sure to include the 
+                    <b>begin</b> and <b>end</b> lines. Next, we will use the command known as <b class="command">vim</b>. This will allow us to edit the blank file. To edit
+                    our specific file type <b class="command">vim /tmp/user/sshkey.private</b>. Press the letter <b>i</b> to allow for insert mode. Paste the private key, make sure everything 
+                    appears perfectly. Finally, to save the file, hit the <b>esc</b>> key, followed by typing <b class="command">:wq</b>. The <b class="command">w</b>
+                    stands for <b>write changes</b>, and the <b class="command">q</b> will <b>quit</b> out of the editor.
+                </p>
+                <p>
+                    Now that we have our private key ready, we can attempt to use the following command to gain access to <b>bandit17</b>:
+                    <b class="command">ssh -i /tmp/user/sshkey.private bandit17@127.0.0.1</b>
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_16_17_pics\bad_perm.png"
+                alt="bad permissions" class="largepicture">
+                <p>
+                    After typing <q>yes</q> to confirm the connection, we are advised the permissions for our private key file are bad. The second reading from level 15&#8594;16 spoke of this issue.
+                    <b class="ssh">ssh</b> has a requirement in it's documentation that says private key files should be given limited access. To solve this issue, 
+                    we will use the following command: <b class="command">chmod 600 /tmp/user/sshkey.private</b>. Describing the logic behind the number 600 is beyond the scope of this walkthrough, 
+                    I would urge you to research linux file permissions further if you are curious.
+                </p>
+                <p>
+                    Now that permissions should be properly set, let's try our command again: <b class="command">ssh -i /tmp/user/sshkey.private bandit17@127.0.0.1</b>
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_16_17_pics\bandit17.png"
+                alt="shell prompt opened as bandit17" class="smallpicture">
+                <p>
+                    We were able to get access to the server as user <b>bandit17</b>! The final step to complete is to obtain the password. We do this by doing the following: 
+                    <b class="command">cat /etc/bandit_pass/bandit17</b>.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_16_17_pics\password.png"
+                alt="password for bandit17" alt="smallpicture">
+                <p>
+                    Congratulations on finding the password. You may now log out of the session and get ready for the next level!
+                </p>
+                <p>
+                    Password: <b class="password">xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn</b>
+                </p>
+            </div>
+            <div>
+                <div class="previous">
+                    <a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_15-16.html">Previous Level</a>
+                </div>
+                <div class="next">
+                    <a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_17-18.html">Next Level</a>
+                </div>
+                <footer>
+                    <div class="footerinfo">
+                        <p>Author: Kevin Kennedy</p>
+                        <p>Creation: December 15th, 2020 - December 27th, 2020</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bandit Walkthrough: Level 23→24</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Kevin Kennedy">
+    <meta name="description" content="OverTheWire: Bandit-Wargame Level 23 to 24 Walkthrough">
+</head>
+
+<body>
+    <div class="alwaysontop">
+        <header class="topbanner">
+            OverTheWire.org Walkthrough: Bandit
+        </header>
+    </div>
+    <div class="maincontent">
+        <div class="sidemenu">
+            <ul>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\index.html">Home</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_0-0.html">Level: 0</li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_0-1.html">Level: 0&#8594;1</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_1-2.html">Level: 1&#8594;2</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_2-3.html">Level: 2&#8594;3</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_3-4.html">Level: 3&#8594;4</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_4-5.html">Level: 4&#8594;5</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_5-6.html">Level: 5&#8594;6</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_6-7.html">Level: 6&#8594;7</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_7-8.html">Level: 7&#8594;8</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_8-9.html">Level: 8&#8594;9</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_9-10.html">Level: 9&#8594;10</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_10-11.html">Level: 10&#8594;11</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_11-12.html">Level: 11&#8594;12</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_12-13.html">Level: 12&#8594;13</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_13-14.html">Level: 13&#8594;14</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_14-15.html">Level: 14&#8594;15</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_15-16.html">Level: 15&#8594;16</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_16-17.html">Level: 16&#8594;17</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_17-18.html">Level: 17&#8594;18</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_18-19.html">Level: 18&#8594;19</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_19-20.html">Level: 19&#8594;20</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_20-21.html">Level: 20&#8594;21</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_21-22.html">Level: 21&#8594;22</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_22-23.html">Level: 22&#8594;23</a></li>
+                <li>Level: 23&#8594;24</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_24-25.html">Level: 24&#8594;25</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_25-26.html">Level: 25&#8594;26</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_26-27.html">Level: 26&#8594;27</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_27-28.html">Level: 27&#8594;28</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_28-29.html">Level: 28&#8594;29</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_29-30.html">Level: 29&#8594;30</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_30-31.html">Level: 30&#8594;31</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_31-32.html">Level: 31&#8594;32</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_32-33.html">Level: 32&#8594;33</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_33-34.html">Level: 33&#8594;34</a></li>
+            </ul>
+        </div>
+        <div class="allbodycontent">
+            <h1 class="levelnumber">~ Level 23&#8594;24 ~</h1>
+            <h2 class="bodysectiontitle">Level Description</h2>
+            <div class="leveldescription">
+                <p>
+                    A program is running automatically at regular intervals from <b>cron</b>, the time-based job scheduler. Look in <b>/etc/cron.d/</b> for the 
+                    configuration and see what command is being executed.
+                </p>
+                <p>
+                    <b>NOTE:</b> This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself 
+                    when you beat this level!
+                </p>
+                <p>
+                    <b>NOTE 2:</b> Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
+                </p>
+                <p>
+                    Commands that may be used: <b>cron, crontab,</b> and <b>crontab(5) (use “man 5 crontab” to access this)</b>
+                </p>
+                <hr class="linebreak">
+            </div>
+            <h2 class="bodysectiontitle">Research Before Solving</h2>
+            <div class="research">
+                <p>
+                    Research will once again be done during the solution walkthrough.
+                </p>
+                <hr class="linebreak">
+            </div>
+            <h2 class="bodysectiontitle">Solution Walkthrough</h2>
+            <div class="solution">
+                <p>
+                    Log in as <b>bandit23</b>. Navigate to the <b class="directory">/etc/cron.d</b> directory and list all contents 
+                    with <b class="command">ls</b>
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_23_24_pics\ls_crond.png"
+                alt="listed files in cron.d" class="largepicture">
+                <p>
+                    Next we will view the contents of the <b>cronjob_bandit24</b> file with <b class="command">cat</b>.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_23_24_pics\cat_cronjob.png"
+                alt="contents of cronjob_bandit24" class="largepicture">
+                <p>
+                    Next, we must view the contents of the script file with <b class="command">cat /usr/bin/cronjob_bandit24.sh</b>
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_23_24_pics\cat_usrbin.png"
+                alt="contents of /usr/bin/cronjob_bandit24.sh" class="largepicture">
+                <p>
+                    The script starts by navigating to the <b class="directory">/var/spool/$myname</b> directory. A statement is then printed 
+                    to the screen using <b class="command">echo</b>. The next portion creates a loop. For each file within the directory, except for 
+                    <b>.</b> (current directory) and <b>..</b> (previous directory), each file will be executed as <b>bandit24</b> at the top of every minute. The file will 
+                    then be deleted from the system. Long story short, we need to write a script that can read the password in the <b class="directory">/etc/bandit_pass/</b>
+                    directory and then send the output to a file within the <b class="directory">/tmp/user</b> directory where we can access it.
+                </p>
+                <p>
+                    To start this process we will create a directory of <b class="directory">/tmp/user</b> and then set it's permissions with <b class="command">chmod 777 /tmp/user</b>.
+                    This allows all users the ability to write changes to the directory.
+                    Navigate to this directory and create two files using <b class="command">touch </b>. Mine are called <b>meow.sh</b> and <b>password.txt</b> respectively.
+                    We must use the <b>.sh</b> extension in order for the file to be ran as a script! We must also set permissions here so that the files 
+                    can be executed or written to by any user, we do this with <b class="command">chmod 777 filename</b>.
+                    Next, use <b class="command">vim meow.sh</b> to edit the script file. Hit <b>i</b> to insert and then write a script as follows:
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_23_24_pics\meow.png"
+                alt="script to get password for bandit24" class="largepicture">
+                <p>
+                    To exit <b class="command">vim</b>, hit <b>esc</b> then type <b class="command">:wq</b> to write the changes and quit. 
+                    We now need to use <b class="command">cp</b> to copy the shell script to the <b class="directory">/var/spool/bandit24</b> directory 
+                    so that it may be ran for us! After that is done, simply wait for a minute or two and check the password file we created inside of the 
+                    <b class="directory">/tmp/user</b> directory.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_23_24_pics\password.png"
+                alt="password for bandit24" class="smallpicture">
+                <p>
+                    BOOM! The password is there for us as expected: <b class="password">UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ</b>
+                </p>
+                <p>
+                    Before moving to the next level, use <b class="command">rm meow.sh password.txt</b> to remove the files we created. Then, move up one 
+                    directory with <b class="command">cd ..</b> and remove the <b class="directory">/user</b> directory with 
+                    <b class="command">rmdir /tmp/user</b>. You may now move on to the next level!
+                </p>
+            </div>
+            <div>
+                <div class="previous">
+                    <a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_22-23.html">Previous Level</a>
+                </div>
+                <div class="next">
+                    <a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_24-25.html">Next Level</a>
+                </div>
+                <footer>
+                    <div class="footerinfo">
+                        <p>Author: Kevin Kennedy</p>
+                        <p>Creation: December 15th, 2020 - December 27th, 2020</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

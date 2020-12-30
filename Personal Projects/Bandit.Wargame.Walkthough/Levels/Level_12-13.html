@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bandit Walkthrough: Level 12→13</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Kevin Kennedy">
+    <meta name="description" content="OverTheWire: Bandit-Wargame Level 12 to 13 Walkthrough">
+</head>
+
+<body>
+    <div class="alwaysontop">
+        <header class="topbanner">
+            OverTheWire.org Walkthrough: Bandit
+        </header>
+    </div>
+    <div class="maincontent">
+        <div class="sidemenu">
+            <ul>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\index.html">Home</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_0-0.html">Level: 0</li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_0-1.html">Level: 0&#8594;1</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_1-2.html">Level: 1&#8594;2</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_2-3.html">Level: 2&#8594;3</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_3-4.html">Level: 3&#8594;4</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_4-5.html">Level: 4&#8594;5</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_5-6.html">Level: 5&#8594;6</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_6-7.html">Level: 6&#8594;7</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_7-8.html">Level: 7&#8594;8</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_8-9.html">Level: 8&#8594;9</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_9-10.html">Level: 9&#8594;10</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_10-11.html">Level: 10&#8594;11</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_11-12.html">Level: 11&#8594;12</a></li>
+                <li>Level: 12&#8594;13</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_13-14.html">Level: 13&#8594;14</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_14-15.html">Level: 14&#8594;15</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_15-16.html">Level: 15&#8594;16</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_16-17.html">Level: 16&#8594;17</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_17-18.html">Level: 17&#8594;18</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_18-19.html">Level: 18&#8594;19</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_19-20.html">Level: 19&#8594;20</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_20-21.html">Level: 20&#8594;21</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_21-22.html">Level: 21&#8594;22</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_22-23.html">Level: 22&#8594;23</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_23-24.html">Level: 23&#8594;24</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_24-25.html">Level: 24&#8594;25</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_25-26.html">Level: 25&#8594;26</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_26-27.html">Level: 26&#8594;27</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_27-28.html">Level: 27&#8594;28</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_28-29.html">Level: 28&#8594;29</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_29-30.html">Level: 29&#8594;30</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_30-31.html">Level: 30&#8594;31</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_31-32.html">Level: 31&#8594;32</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_32-33.html">Level: 32&#8594;33</a></li>
+                <li><a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_33-34.html">Level: 33&#8594;34</a></li>
+            </ul>
+        </div>
+        <div class="allbodycontent">
+            <h1 class="levelnumber">~ Level 12&#8594;13 ~</h1>
+            <h2 class="bodysectiontitle">Level Description</h2>
+            <div class="leveldescription">
+                <p>
+                    The password for the next level is stored in the file <b>data.txt</b>, which is a hexdump of a file that has
+                    been repeatedly compressed.
+                    For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For
+                    example: mkdir /tmp/myname123.
+                    Then copy the datafile using cp, and rename it using mv (read the manpages!)
+                </p>
+                <p>
+                    Commands that might be used when solving this level include:
+                    <b>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv,</b> and <b>file</b>
+                </p>
+                <p>
+                    We are also given a link to a Wikipedia article on the concept of a <b>hex dump</b>.
+                </p>
+                <hr class="linebreak">
+            </div>
+            <h2 class="bodysectiontitle">Research Before Solving</h2>
+            <div class="research">
+                <p>
+                    Forewarning before starting: this is quite a long level and write-up! Make sure you have some time alotted for it.
+                    If you have to stop in the middle of it, you may lose your progress.
+                </p>
+                <p>
+                    Starting with the reading; we find that hex dumps are a hexidecimal view of computer data. The data can
+                    be from
+                    RAM, a file or an entire storage disk. The article goes into further detail about how hex dumps are
+                    structured and formatted
+                    when viewing them.
+                </p>
+                <p>
+                    Moving on to the commands, we find that we've not touched multiple that are recommended. This time,
+                    instead of using <b class="command">command --help</b>,
+                    we will use <b class="command">man command</b> as that is what the creators suggest we do. The command
+                    known as <b class="command">man</b> is used to call the <b>General Commands Manual</b>. Within the
+                    manual
+                    is the full documentation for any given command. When using the <q>man pages</q>; use <q>h</q> key for
+                    help, <q>q</q> to quit out, and enter or the up/down arrow keys to scroll.
+                </p>
+                <p>
+                    The first command, <b class="command">tar</b>, appears to combine multiple files into one archived file or extract files from the archive.
+                    The man pages advise us that <b class="command">xxd</b> is used to create or reverse a hexdump. Both <b
+                        class="command">gzip</b>
+                    and <b class="command">bzip2</b> are tools used to compress and decompress files. The next command known
+                    as <b class="command">mkdir</b> is what is used to create a directory. We are told to make it
+                    under the <b class="directory">/tmp/</b> directory. The final two commands we haven't worked with are
+                    defined in the level description;
+                    <b class="command">cp</b> is used to copy a file while <b class="command">mv</b> can be used to rename
+                    it.
+                </p>
+                <hr class="linebreak">
+            </div>
+            <h2 class="bodysectiontitle">Solution Walkthrough</h2>
+            <div class="solution">
+                <p>
+                    We will first log in as <b>bandit12</b>, paste in the required password, and then issue an <b
+                        class="command">ls</b>.
+                    We are greeted by a file named <b>data.txt</b> where the password is once again stored. If we use <b
+                        class="command">cat</b>
+                    on <b>data.txt</b>, we are shown data that looks similar to the pictures on Wikipedia. This is, indeed,
+                    a <b>hex dump</b> of information.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\cat_data.png"
+                    alt="contents of hexdump file" class="largepicture">
+                <p>
+                    Let's do as the creators suggested and create a temporary directory so that the work will be easier. To
+                    do so we must issue the following command:
+                    <b class="command">mkdir /tmp/user</b>. This will create a directory named <b class="directory">user</b>
+                    under the <b class="directory">/tmp</b>
+                    directory. The <b class="directory">/</b> in this address stands for the <b class="directory">root</b>
+                    directory and <b class="directory">temp</b> is a directory inside of it.
+                </p>
+                <p>
+                    Parsing the level description, we see that the file was made into a <b>hex dump</b> last. This would
+                    mean we need to reverse the <b>hex dump</b> first.
+                    Referring back to our research, <b class="command">xxd</b>, is used to perform this action. We can then
+                    look at <b class="command">xxd --help</b> to learn that the switch of <b class="command">-r</b>
+                    must be used to do so. We want the output of the command to be redirected into our new
+                    <b class="directory">user</b> directory we created. To do this, our command will look like the
+                    following: <b class="command">xxd -r data.txt > /tmp/user/hex.txt</b>
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\xxd_data.png"
+                    alt="reverse hexdump of file data.txt" class="largepicture">
+                <p>
+                    Notice there is no confirmation that our command was successful. Navigate to where our file resides
+                    using <b class="command">cd /tmp/user</b> and then issue an <b class="command">ls</b> command.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\ls_tmp_user.png"
+                    alt="listing new file in /tmp/user directory" class="smallpicture">
+                <p>
+                    Using <b class="command">cat</b> on our file will show the new contents:
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\cat_hex.png" alt=""
+                    class="largepicture">
+                <p>
+                    We can see the contents are no longer a <b>hex dump</b> . The level description told us the file has been
+                    compressed repeatedly. Previously we've used the <b class="command">file</b>
+                    command to see the type of a particular file. Let's try to use it here and see what type we are given.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\file_hex.png"
+                    alt="file type of gzip for hex.txt" class="largepicture">
+                <p>
+                    We find the type to be that of <q>gzip compressed data</q>. We know now we must use the <b
+                        class="command">gzip</b> command to decompress. Before running the command, however, the <b>man
+                        pages</b>
+                    state the file must end in <b>.gz</b>. We must first change the extension of the file so that <b
+                        class="command">gzip</b> may recognize it. We may use <b class="command">mv</b> to do so by simply
+                    changing
+                    the file name with the following command: <b>mv hex.txt hex.gz</b>. No confirmation is given so perform
+                    an <b class="command">ls</b> to confirm the changes.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\hextxt_hexgz.png"
+                    alt="convert hex from txt to gz" class="smallpicture">
+                <p>
+                    Now that the file has been changed to have the proper extension, we can move on to using <b class="command">gzip</b>
+                    to decompress <b>hex.gz</b>. In order to do so, we must use the switch of <b class="command">-d</b>. The full command 
+                    will be <b class="command">gzip -d hex.txt</b>. Note that you do not need to redirect the output into a new file!
+                </p>
+                <p>
+                    No confirmation is given after our command completes, to see the new file use <b class="command">ls</b> again.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\gzip1.png"
+                alt="decompression output using gzip" class="smallpicture">
+                <p>
+                    Following this we will use <b class="command">file</b> in order to see the file-type.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\file_hex_2.png"
+                alt="file type as bzip compressed data" class="smallpicture">
+                <p>
+                    This time we see the file-type as <q>bzip2 compressed data</q>. We must use <b class="command">bzip2</b> this time to decompress.
+                    The <b>man pages</b> list the file extension needed as <b>.bz2</b>. Let's use <b class="command">mv hex hex.bz2</b> as the command to start the 
+                    decompression process.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\hex_hexbz2.png"
+                alt="changing extension to .bz2" class="smallpicture">
+                <p>
+                    We will use <b class="command">bzip2 -d hex.bz2</b> to decompress this file. We are again met with no confirmation of completion. However, when using 
+                    <b class="command">ls</b>, we are able to see the name has changed once again. Using <b class="command">file</b> on the resulting file gives us 
+                    these results: 
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\file_hex_3.png"
+                alt="seeing file-type of gzip again" class="largepicture">
+                <p>
+                    Looking at the output of the <b class="command">file</b> command, we see we are once again dealing with 
+                    <q>gzip compressed data</q>. You can see this time, however, the name is <q>data4.bin</q> while the first time 
+                    we were met with <b>gzip data</b>, it was listed as <q>data2.bin</q>. This goes to show we are making progress!
+                </p> 
+                <p>
+                    Go ahead and use the <b>mv</b> command to rename the file so that it has the proper extension. Next, decompress the file with 
+                    the <b class="command">gzip -d</b> command. You can use <b class="command">ls</b> to list files so that you may know the new name.
+                    Finally, use <b class="command">file</b> again to list the file-type.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\mv_gzip_ls.png"
+                alt="output of tar archive file-type" class="smallpicture">
+                <p>
+                    The next form of compression is known as a <b>tar archive</b>. If you remember from our research earlier, the <b class="command">tar</b> command 
+                    is used with files of this type. According to the documentation, these types of files have an extension of <b>archive.tar</b>. This means we must first 
+                    convert our file name in order to have the proper extension. The command to do so is: <b class="command">mv hex hex.archive.tar</b>. We will then use 
+                    <b class="command">ls</b> to confirm the change.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\mv_archivetar.png"
+                alt="confirm archive.tar conversion with ls" class="smallpicture">
+                <p>
+                    We can now extract from the archive using <b class="command">tar</b>. When looking at switches for this command, we find that <b class="command">-xf</b> fits what 
+                    we are looking for. This <b>switch</b> tells the system that we want to extract files from the archive. Your command 
+                    will look like the following: <b class="command">tar -xf hex.archive.tar</b>. We must use <b class="command">ls</b> to list the resulting file(s) again. 
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\tar_archivetar.png"
+                alt="new file shown after decompressing archive file" class="largepicture">
+            <p>
+                    <q>Data5.bin</q> has now been revealed to us. Checking the file-type shows us it is still an archived file. 
+                    It would appear we must use <b class="command">tar</b> on this archive now. First we must convert the file to an <b>archive.tar</b> 
+                    extension. Then we will run <b class="command">tar -xf data5.archive.tar</b> to decompress it further. Running an <b class="command">ls</b> will show us
+                    the results.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\tar_data5.png"
+                alt="data6.bin file revealed from decompression" class="largepicture">
+                <p>
+                    We are presented with another file by the name of <q>data6.bin</q>. Running <b class="command">file</b> on this item shows us another <b>bzip2</b> file-type. We will convert 
+                    the file to the proper extension and then decompress with the following command: <b class="command">bzip2 -d data6.bz2</b>. As done previously, <b class="command">ls</b> to see the decompressed 
+                    file known as <b>data6</b> and run <b class="command">file</b> on it to see its type.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\file_data6.png"
+                alt="file-type of data6" class="smallpicture">
+                <p>
+                    Notice this is also a <b>tar archive</b> file. Convert <b>data6</b> to <b>data6.archive.tar</b> before using <b class="command">tar -xf data6.archive.tar</b>
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\ls_data8.png"
+                alt="new data8 file and its type of gzip" class="largepicture">
+                <p>
+                    As shown above, we can see that we found <b>data8.bin</b> and it is compressed using <b class="command">gzip</b>. Go ahead and convert the file before decompressing it. After 
+                    you decompress the file, view the results. We are left with <b>data8</b>. Upon using <b class="command">file</b> on this item, we find this result
+                    is ASCII text. Use <b class="command">cat</b> on the file to see its contents.
+                </p>
+                <img src="\Personal Projects\Bandit.Wargame.Walkthough\Images\Level_12_13_pics\password.png"
+                alt="Password revealed from data8" class="largepicture">
+                <p>
+                    Whew! We finally reached the end. There were a lot of compressions in this level. Hopefully you found the practice to be helpful in learning
+                    how to decompress and rename files.
+                </p>
+                <p>
+                    Record the password, log out of the session and maybe take a short break if you'd like :) Move on to the next level when you're ready.
+                </p>
+                <p>
+                    Password: <b class="password">8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL</b>
+                </p>
+            </div>
+            <div>
+                <div class="previous">
+                    <a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_11-12.html">Previous Level</a>
+                </div>
+                <div class="next">
+                    <a href="\Personal Projects\Bandit.Wargame.Walkthough\Levels\Level_13-14.html">Next Level</a>
+                </div>
+                <footer>
+                    <div class="footerinfo">
+                        <p>Author: Kevin Kennedy</p>
+                        <p>Creation: December 15th, 2020 - December 27th, 2020</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
